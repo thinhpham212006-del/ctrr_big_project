@@ -1,0 +1,67 @@
+# UNDIRECTED GRAPH
+# Node: A-J, Edges: 20
+UNDIRECTED
+A,B,6
+A,C,3
+A,D,9
+B,C,4
+B,E,2
+B,F,7
+C,D,5
+C,E,8
+D,F,11
+D,G,14
+E,F,3
+E,H,10
+F,G,6
+F,H,5
+F,I,8
+G,I,9
+G,J,12
+H,I,4
+I,J,2
+A,E,10
+
+# DIRECTED GRAPH - MAX FLOW
+# Source: S, Sink: T
+DIRECTED
+S,A,15
+S,B,12
+S,C,20
+A,B,5
+A,D,10
+B,C,4
+B,D,8
+B,E,6
+C,E,14
+D,F,12
+D,T,10
+E,D,3
+E,F,15
+F,T,25
+
+# LOGISTICS OPTIMIZATION
+# Vietnam network with 10 hubs
+LOGISTICS
+HN_KinhBac,HaiPhong_Port,15
+HN_KinhBac,ThaiNguyen_Base,12
+HN_KinhBac,ThanhHoa_Hub,35
+HaiPhong_Port,QuangNinh_Hub,18
+ThaiNguyen_Base,QuangNinh_Hub,40
+ThanhHoa_Hub,Vinh_Hub,28
+ThanhHoa_Hub,DaNang_Central,85
+Vinh_Hub,DaNang_Central,65
+DaNang_Central,QuyNhon_Port,45
+DaNang_Central,TayNguyen_Hub,55
+QuyNhon_Port,KhanhHoa_Hub,32
+TayNguyen_Hub,KhanhHoa_Hub,38
+TayNguyen_Hub,DongNai_Hub,60
+KhanhHoa_Hub,HCM_Central,75
+DongNai_Hub,HCM_Central,10
+DongNai_Hub,BinhDuong_Hub,8
+HCM_Central,BinhDuong_Hub,12
+HCM_Central,LongAn_Hub,14
+HCM_Central,CanTho_Hub,42
+BinhDuong_Hub,CanTho_Hub,50
+LongAn_Hub,CanTho_Hub,30
+CanTho_Hub,AnGiang_Hub,22
